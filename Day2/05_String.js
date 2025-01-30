@@ -32,8 +32,8 @@ console.log(`The last word is ${lastWord1} with lenth ${lastWord1.length}`)
 
 function isAnagram(string1,string2){
    //Remove spaces and convert all letters to the same case
-   string1=string1.replace(/[^a-z]/g, '').toLowerCase();
-   string2=string2.replace(/[^a-z]/g, '').toLowerCase();
+    string1=string1.replace(" ", "").toLowerCase();
+   string2=string2.replace(" ", "").toLowerCase();
 
    //Sort the Characters in both Strings
    let sortedStr1=string1.split('').sort().join('');
