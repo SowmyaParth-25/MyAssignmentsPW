@@ -28,7 +28,7 @@ console.log(`Calculate the Length of the Last Word:${lastWord1.length}`)
 console.log(`The last word is ${lastWord1} with lenth ${lastWord1.length}`)
 
 
-//Example 3
+//Example 3(Anagram or not)
 
 function isAnagram(string1,string2){
    //Remove spaces and convert all letters to the same case
