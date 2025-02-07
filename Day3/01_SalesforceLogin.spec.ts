@@ -14,10 +14,10 @@ test('log in to Salesforce using Playwright with TypeScript',async({page})=>{
     await page.goto("https://login.salesforce.com/");
 
     //Enter the username
-    await page.locator("//input[@id='username']").fill("sowmya-hz3g@testleaf.com");
+    await page.locator("//input[@id='username']").fill("sowp-2525@testleaf.com");
     
     //Enter the password
-    await page.locator("//input[@id='password']").fill("connect25");
+    await page.locator("//input[@id='password']").fill("Sunshine@15");
 
     //Click the login button
 
@@ -32,13 +32,6 @@ test('log in to Salesforce using Playwright with TypeScript',async({page})=>{
 
    //Close the browser
    await page.close();
-
-   
-
-
-
-
-
 
 
 })
