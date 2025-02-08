@@ -16,3 +16,5 @@ why am not able to see playwright insepctor? i have set headless-false, also add
 need support with Assignment 3 ->how to verify the name after creating individual?
 
 Should we use PW inbuilt locators over xpath and css selectors?
+
+how to find locator .class css selector how to find when there are multiple matches?index based?
