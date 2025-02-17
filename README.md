@@ -1,4 +1,4 @@
-doubts:-
+doubts WEEK2:-
 
 how to handle pop up notifications ex sales when I login I get a pop up allow notifications,Remind me later for phone number etc ?
 
